@@ -6,12 +6,16 @@ This project is a PHP console application which will scrape the BBC news website
 
 ## Requires 
 
-PHP 5.4+
-PHP5-JSON - sudo apt-get install php5-json 
+PHP 5.4 (or later)
+
+PHP5-JSON
+
+`sudo apt-get install php5-json 
 
 
 ## Example
 
+```
 {
     "results": [
         {
@@ -26,7 +30,7 @@ PHP5-JSON - sudo apt-get install php5-json
             "size": "108.2Kb",
             "most_used_word": "woodpecker"
         },
-
+```
 
 ## Running
 
